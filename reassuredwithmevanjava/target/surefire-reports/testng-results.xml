@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6443" started-at="2019-04-11T21:06:28Z" finished-at="2019-04-11T21:06:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6443" started-at="2019-04-11T21:06:28Z" finished-at="2019-04-11T21:06:34Z">
+      <class name="restassuredtest.excelDriventest">
+        <test-method status="PASS" signature="basicAddBookTest()[pri:0, instance:restassuredtest.excelDriventest@3c09711b]" name="basicAddBookTest" duration-ms="1112" started-at="2019-04-11T21:06:33Z" finished-at="2019-04-11T21:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicAddBookTest -->
+      </class> <!-- restassuredtest.excelDriventest -->
+      <class name="restassuredtest.basicReadtest">
+        <test-method status="PASS" signature="testReadJson(java.lang.String)[pri:0, instance:restassuredtest.basicReadtest@7946e1f4]" name="testReadJson" duration-ms="2629" started-at="2019-04-11T21:06:28Z" data-provider="booksData" finished-at="2019-04-11T21:06:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[./src/main/resources/request/test1.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadJson -->
+        <test-method status="PASS" signature="testReadJson(java.lang.String)[pri:0, instance:restassuredtest.basicReadtest@7946e1f4]" name="testReadJson" duration-ms="1232" started-at="2019-04-11T21:06:30Z" data-provider="booksData" finished-at="2019-04-11T21:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[./src/main/resources/request/test2.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadJson -->
+        <test-method status="PASS" signature="testReadJson(java.lang.String)[pri:0, instance:restassuredtest.basicReadtest@7946e1f4]" name="testReadJson" duration-ms="1440" started-at="2019-04-11T21:06:31Z" data-provider="booksData" finished-at="2019-04-11T21:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[./src/main/resources/request/test3.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadJson -->
+      </class> <!-- restassuredtest.basicReadtest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
